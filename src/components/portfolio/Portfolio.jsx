@@ -8,7 +8,7 @@ const items = [
     title: "Blogger",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "A blog application integrated with Next-auth authetication, mongodb backend and comment features",
-    link:"",
+    link:"https://blog-platform-ruddy-one.vercel.app/",
   },
   {
     id: 2,
@@ -34,10 +34,10 @@ const items = [
 
   {
     id: 5,
-    title: "Snapgram",
+    title: "Evently",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "An Instagram clone powered by AppWrite",
-    link:""
+    desc: "An Events platform with integrate Stripe Payments",
+    link:"https://event-production.vercel.app/"
   },
 ];
 
