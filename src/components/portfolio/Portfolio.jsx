@@ -34,10 +34,10 @@ const items = [
 
   {
     id: 5,
-    title: "Evently",
+    title: "MovieCasters",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "An Events platform with integrate Stripe Payments",
-    link:"https://event-production.vercel.app/"
+    desc: "A platform for actors and casting agencies to connect",
+    link:"https://mcasters.vercel.app/"
   },
 ];
 
