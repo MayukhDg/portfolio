@@ -5,17 +5,17 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Blogger",
+    title: "Imaginify",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A blog application integrated with Next-auth authetication, mongodb backend and comment features",
-    link:"https://blog-platform-ruddy-one.vercel.app/",
+    desc: "An AI-powered SASS app which to transform images. Powered by NextJS, MongoDB and Stripe payment",
+    link:"https://imaginify-nine-sable.vercel.app/",
   },
   {
     id: 2,
-    title: "Sushiman",
+    title: "Evently",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A UI/UX design project for a Sushi Restaurant",
-    link:"https://6592dd831f7c2bd38cf0dfed--scintillating-speculoos-80af6c.netlify.app/"
+    desc: "A platform for users to promote their events. Powered by NextJS, MongoDB and Stripe payment.",
+    link:"https://evntly-beta.vercel.app//"
   },
   {
     id: 3,
@@ -32,13 +32,6 @@ const items = [
     link:"https://thread-pi.vercel.app/"
   },
 
-  {
-    id: 5,
-    title: "MovieCasters",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "A platform for actors and casting agencies to connect",
-    link:"https://mcasters.vercel.app/"
-  },
 ];
 
 const Single = ({ item }) => {
