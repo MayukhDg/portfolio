@@ -15,7 +15,7 @@ const items = [
     title: "Evently",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "A platform for users to promote their events. Powered by NextJS, MongoDB and Stripe payment.",
-    link:"https://evntly-beta.vercel.app//"
+    link:"https://evntly-beta.vercel.app/"
   },
   {
     id: 3,
