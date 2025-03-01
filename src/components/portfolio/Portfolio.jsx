@@ -17,19 +17,21 @@ const items = [
     desc: "A platform for users to promote their events. Powered by NextJS, MongoDB and Stripe payment.",
     link:"https://evntly-beta.vercel.app/"
   },
+  
   {
     id: 3,
-    title: "Hilink",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A UI/UX design project for a Travel company",
-    link:"https://travel-steel-three.vercel.app/"
-  },
-  {
-    id: 4,
     title: "Threads Clone",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     desc: "A Threads Clone with mongodb backend and Clerk authentication integration",
     link:"https://thread-livid.vercel.app/"
+  },
+
+  {
+    id: 4,
+    title: "Food Paradise",
+    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "A food ordering app with stripe payment integration. Powered by NextJS and MongoDB",
+    link:"https://food-paradise-liart.vercel.app/"
   },
 
 ];
