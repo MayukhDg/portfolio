@@ -14,7 +14,7 @@ const items = [
     id: 2,
     title: "Evently",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A platform for users to promote their events. Powered by NextJS, MongoDB and Stripe payment.",
+    desc: "A platform for users to promote their events. Powered by NextJS, MongoDB and Stripe payment. ",
     link:"https://evntly-beta.vercel.app/"
   },
   
@@ -30,7 +30,7 @@ const items = [
     id: 4,
     title: "Food Paradise",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A food ordering app with stripe payment integration. Powered by NextJS and MongoDB",
+    desc: "A food ordering app with stripe payment integration. Powered by NextJS and MongoDB. You can test out payments with the dummy card no. 4000 0035 6000 0008",
     link:"https://food-paradise-liart.vercel.app/"
   },
 
