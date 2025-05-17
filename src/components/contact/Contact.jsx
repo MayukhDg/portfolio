@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_ij0chn6",
+        "template_j9p4wzj",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "tAki4Co4YzGQAI7r6"
       )
       .then(
         (result) => {
@@ -53,12 +53,13 @@ const Contact = () => {
       variants={variants}
       initial="initial"
       whileInView="animate"
+      id="contact"
     >
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>mayukh1995@gmail.com</span>
+          <span>mayukhdg@outlook.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>

@@ -34,6 +34,14 @@ const items = [
     link:"https://food-paradise-liart.vercel.app/"
   },
 
+  {
+    id: 5,
+    title: "SoundBite",
+    img: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    desc: "A music streaming app with stripe payment integration. Powered by NextJS and MongoDB. You can test out payments with the dummy card no. 4000 0035 6000 0008",
+    link:"https://music-snippets-seven.vercel.app/"
+  },
+
 ];
 
 const Single = ({ item }) => {
@@ -81,7 +89,7 @@ const Portfolio = () => {
   });
 
   return (
-    <div className="portfolio" ref={ref}>
+    <div id="portfolio" className="portfolio" ref={ref}>
       <div className="progress">
         <h1>Featured Works</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
