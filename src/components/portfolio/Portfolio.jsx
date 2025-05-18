@@ -7,22 +7,15 @@ const items = [
     id: 1,
     title: "Imaginify",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "An AI-powered SASS app which to transform images. Powered by NextJS, MongoDB and Stripe payment",
+    desc: "An AI-powered SASS app which to transform images. Powered by NextJS, MongoDB, Cloudinary and Stripe payment",
     link:"https://imaginify-nine-sable.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Evently",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A platform for users to promote their events. Powered by NextJS, MongoDB and Stripe payment. ",
-    link:"https://evntly-beta.vercel.app/"
   },
   
   {
     id: 3,
     title: "Threads Clone",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "A Threads Clone with mongodb backend and Clerk authentication integration",
+    desc: "A Threads Clone with mongodb backend, nested comment features and Clerk authentication integration",
     link:"https://thread-livid.vercel.app/"
   },
 
