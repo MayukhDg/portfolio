@@ -38,9 +38,10 @@ const sliderVariants = {
 };
 
 const Hero = () => {
-  
-  const scrollToContact = () => { 
-    const contactSection = document.getElementById("contact");
+
+  const scrollToContact = () => {
+    
+    const contactSection = document.getElementById("#Contact");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -60,11 +61,11 @@ const Hero = () => {
             Web developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button className="btn" variants={textVariants}>
+           { /* <motion.button  className="btn" variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button className="btn" onClick={()=>scrollToContact()} 
-            variants={textVariants}>Contact Me</motion.button>
+            <motion.button className="btn" onClick={scrollToContact}
+            variants={textVariants}>Contact Me</motion.button> */}
           </motion.div>
           <motion.img
             variants={textVariants}

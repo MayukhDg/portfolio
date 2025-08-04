@@ -12,27 +12,19 @@ const items = [
   },
   
   {
-    id: 3,
-    title: "Threads Clone",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "A Threads Clone with mongodb backend, nested comment features and Clerk authentication integration",
-    link:"https://thread-livid.vercel.app/"
-  },
-
-  {
-    id: 4,
-    title: "Food Paradise",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "A food ordering app with stripe payment integration. Powered by NextJS and MongoDB. You can test out payments with the dummy card no. 4000 0035 6000 0008",
-    link:"https://food-paradise-liart.vercel.app/"
-  },
-
-  {
-    id: 5,
+    id: 2,
     title: "SoundBite",
-    img: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "A music streaming app with stripe payment integration. Powered by NextJS and MongoDB. You can test out payments with the dummy card no. 4000 0035 6000 0008",
+    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    desc: "An App where users can buy and sell their music. Powered by NextJS, MongoDB and Stripe payment",
     link:"https://music-snippets-seven.vercel.app/"
+  },
+
+  {
+    id: 3,
+    title: "PodAI",
+    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "An AI-powered productivity app for podcasters. Generates podcast transcripts, thumbnails and analyses. ",
+    link:"https://pod-transcribe.vercel.app/"
   },
 
 ];

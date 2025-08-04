@@ -16,9 +16,6 @@ const Navbar = () => {
          Mayukh Dev
         </motion.span>
         <div className="social">
-          <a href="https://github.com/MayukhDg">
-            <img src="/github.png" alt="" />
-          </a>
           <a href="https://www.linkedin.com/in/mdgwebdeveloper/">
             <img src="/linkedin.png" alt="" />
           </a>
