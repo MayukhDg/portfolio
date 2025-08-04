@@ -64,8 +64,16 @@ const Services = () => {
           <p>
             I use tools like React, Next.js and Tailwind CSS to build top-notch websites for your business
           </p>
-          <button>Go</button>
-        </motion.div>
+         </motion.div>
+         <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>AI integration</h2>
+          <p>
+            I can build AI-powered applications for you with Gemini, OpenAI and other AI APIs
+          </p>
+         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -74,18 +82,8 @@ const Services = () => {
           <p>
             I hold expertise in databases like MongoDB and backend services like AppWrite
           </p>
-          <button>Go</button>
         </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>UI Design</h2>
-          <p>
-           I can design attractive User Interfaces for websites and mobile apps 
-          </p>
-          <button>Go</button>
-        </motion.div>
+
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -94,7 +92,6 @@ const Services = () => {
           <p>
             I use React Native to build apps
           </p>
-          <button>Go</button>
         </motion.div>
       </motion.div>
     </motion.div>
