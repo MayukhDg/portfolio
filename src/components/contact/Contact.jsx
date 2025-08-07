@@ -34,7 +34,7 @@ const Contact = () => {
     try {
       // 1. Auto-reply to user
       await emailjs.sendForm(
-        "service_scm1wfh",        // ✅ Your Service ID
+        "service_9jlkv2i",        // ✅ Your Service ID
         "template_ehfrlt6",       // ✅ Auto-reply template ID
         formRef.current,
         "R7AiieprEen4TPVtN"       // ✅ Public API key
@@ -42,7 +42,7 @@ const Contact = () => {
 
       // 2. Send copy to you
       await emailjs.sendForm(
-        "service_scm1wfh",        // ✅ Same Service ID
+        "service_9jlkv2i",        // ✅ Same Service ID
         "template_1qb567s",       // ✅ Admin notification template ID
         formRef.current,
         "R7AiieprEen4TPVtN"
