@@ -24,8 +24,18 @@ const items = [
     title: "PodAI",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "An AI-powered productivity app for podcasters. Generates podcast transcripts, thumbnails and analyses. ",
-    link:"https://pod-transcribe.vercel.app/"
+    link:"https://www.podaihub.icu/"
   },
+
+  {
+    id: 4,
+    title: "BizBot",
+    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "Seamlessly integrate an AI-powered chatbot into your business website. Enhance customer support, boost engagement, and drive sales with intelligent conversations.",
+    link:"https://bizbot-eight.vercel.app/"
+  },
+
+  
 
 ];
 
