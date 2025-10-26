@@ -8,37 +8,24 @@ const items = [
     id: 1,
     title: "PodAI",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "An AI-powered productivity app for podcasters. Generates podcast transcripts, thumbnails and analyses. ",
+    desc: "PodAI is the X-factor for a new era of podcasting. Generates accurate podcast transcripts in 99+ languages, killer thumbnails and insightful analyses.",
     link:"https://www.podaihub.icu/"
   },
 
   {
     id: 2,
-    title: "BizBot",
+    title: "Bizbot",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Seamlessly integrate an AI-powered chatbot into your business website. Enhance customer support, boost engagement, and drive sales with intelligent conversations.",
+    desc: "Seamlessly integrate an AI-powered chatbot into business website with a single snippet. Easy.Efficient.Effective.",
     link:"https://bizbot-eight.vercel.app/"
   },
   {
     id: 3,
     title: "Imaginify",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "An AI-powered SASS app which to transform images. Powered by NextJS, MongoDB, Cloudinary and Stripe payment",
+    desc: "Transform images seamlessly with AI. Enhance, upscale, and modify images effortlessly using cutting-edge technology.",
     link:"https://imaginify-nine-sable.vercel.app/",
   },
-  
-  {
-    id: 4,
-    title: "SoundBite",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "An App where users can buy and sell their music. Powered by NextJS, MongoDB and Stripe payment",
-    link:"https://music-snippets-seven.vercel.app/"
-  },
-
-  
-
-  
-
 ];
 
 const Single = ({ item }) => {

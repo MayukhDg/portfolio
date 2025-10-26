@@ -13,7 +13,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-         Mayukh Dev
+         MD Dev
         </motion.span>
         <div className="social">
           <a href="https://www.linkedin.com/in/mdgwebdeveloper/">
