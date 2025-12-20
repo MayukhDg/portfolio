@@ -19,6 +19,9 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/mdgwebdeveloper/">
             <img src="/linkedin.png" alt="" />
           </a>
+          <a href="https://x.com/Mdawg1943">
+            <img src="/X.png" alt="" />
+          </a>
         </div>
       </div>
     </div>

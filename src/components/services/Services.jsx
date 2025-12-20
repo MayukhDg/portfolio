@@ -21,7 +21,6 @@ const variants = {
 
 const Services = () => {
   const ref = useRef();
-
   const isInView = useInView(ref, { margin: "-100px" });
 
   return (
@@ -29,58 +28,45 @@ const Services = () => {
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
       ref={ref}
-      animate={"animate"}
+      animate="animate"
     >
+      {/* Intro Text */}
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          I build production-ready SaaS products
+          <br />
+          powered by modern web and AI systems
         </p>
         <hr />
       </motion.div>
+
+      {/* Title Section */}
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            Production-Ready <motion.b whileHover={{ color: "orange" }}>AI SaaS</motion.b>
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            Built <motion.b whileHover={{ color: "orange" }}>End-to-End</motion.b>
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I BUILD</button>
         </div>
       </motion.div>
+
+      {/* Services List */}
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web Development</h2>
+          <h2>SaaS Frontend Engineering</h2>
           <p>
-            I use tools like React, Next.js and Tailwind CSS to build top-notch websites for your business
-          </p>
-         </motion.div>
-         <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>AI integration</h2>
-          <p>
-            I can build AI-powered applications for you with Gemini, OpenAI and other AI APIs
-          </p>
-         </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Backend Web development</h2>
-          <p>
-            I hold expertise in databases like MongoDB and backend services like AppWrite
+            I design and build scalable SaaS frontends using Next.js, React,
+            and Tailwind CSS optimized for performance, SEO, and real users.
           </p>
         </motion.div>
 
@@ -88,9 +74,32 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>App development</h2>
+          <h2>AI-Powered Product Development</h2>
           <p>
-            I use React Native to build apps
+            I build real-world AI features using LangChain, LangGraph,
+            OpenAI, and Gemini from RAG systems to autonomous workflows.
+          </p>
+        </motion.div>
+
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>SaaS Backends and Data Systems</h2>
+          <p>
+            I architect secure, scalable backends using MongoDB, vector
+            databases, auth systems, and server actions to support production AI apps.
+          </p>
+        </motion.div>
+
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>End-to-End Product Development</h2>
+          <p>
+            From idea to deployment I build complete SaaS products including
+            web apps, APIs, AI pipelines, payments, and cloud hosting.
           </p>
         </motion.div>
       </motion.div>
