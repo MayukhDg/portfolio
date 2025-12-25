@@ -85,8 +85,7 @@ const Services = () => {
         >
           <h2>Scalable AI and RAG solutions</h2>
           <p>
-            I design and implement scalable AI and RAG (Robotics and Automation
-            Governance) solutions that help businesses optimize their operations and
+            I design and implement scalable AI and RAG solutions that help businesses optimize their operations and
             improve efficiency.
           </p>
         </motion.div>
