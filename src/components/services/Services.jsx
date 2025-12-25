@@ -64,9 +64,7 @@ const Services = () => {
           <p>
            I ceeate AI-powered Software as a Service (SaaS) solutions that leverage
            the latest advancements in artificial intelligence to deliver
-           exceptional value to users. My focus is on developing intuitive,
-           user-friendly applications that streamline processes and enhance
-           productivity.
+           exceptional value to users. 
           </p>
         </motion.div>
         <motion.div
@@ -89,9 +87,7 @@ const Services = () => {
           <p>
             I design and implement scalable AI and RAG (Robotics and Automation
             Governance) solutions that help businesses optimize their operations and
-            improve efficiency. My expertise lies in creating systems that can grow
-            with the needs of the business while ensuring compliance with industry
-            standards.
+            improve efficiency.
           </p>
         </motion.div>
         <motion.div
@@ -102,8 +98,7 @@ const Services = () => {
           <p>
             I develop ROI-oriented custom solutions tailored to meet the specific
             needs of each business. My focus is on delivering measurable results
-            that drive profitability and long-term success through innovative
-            strategies and technologies.
+            that drive profitability and long-term success.
           </p>
         </motion.div>
       </motion.div>
