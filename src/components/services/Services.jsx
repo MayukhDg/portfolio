@@ -62,9 +62,9 @@ const Services = () => {
         >
           <h2>AI-powered SASS</h2>
           <p>
-           I ceeate AI-powered Software as a Service (SaaS) solutions that leverage
-           the latest advancements in artificial intelligence to deliver
-           exceptional value to users. 
+           I build AI-powered SaaS solutions that leverage
+           the latest advancements in AI and Agentic AI to deliver
+           exceptional value to enterprises. 
           </p>
         </motion.div>
         <motion.div
@@ -74,7 +74,7 @@ const Services = () => {
           <h2>Solving real business problems</h2>
           <p>
             I specialize in identifying and solving real business problems through
-            innovative solutions. My approach is centered around understanding the
+            innovative solutions. My approach is centered around understanding 
             unique challenges faced by businesses and developing strategies that
             drive growth and success.
           </p>
@@ -94,7 +94,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>ROI-oriented custom solutions</h2>
+          <h2>ROI-oriented tech</h2>
           <p>
             I develop ROI-oriented custom solutions tailored to meet the specific
             needs of each business. My focus is on delivering measurable results
